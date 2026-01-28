@@ -1,0 +1,157 @@
+addRecruitmentCurve     Add stock-recruitment curve to srplot
+addforecast             SAM add forecasts
+b0plot                  SAM equilibrium biomass in the absence of
+                        fishing plot
+b0table                 B0 biomass table
+bc                      Spline basis for use with formula interface
+c.sam                   Collect sam objects
+catchbyfleetplot        SAM catchbyfleet plot
+catchbyfleettable       CatchByFleet table
+catchplot               SAM catch plot
+catchtable              Catch table
+caytable                Catch-at-age in numbers table
+clean.void.catches      remove void catches
+coef.sam                Extract fixed coefficients of sam object
+componentplot           Area plot of spawning components
+corplot                 Plots between-age correlations by fleet, either
+                        estimated or empirical using residuals.
+corplotcommon           Common function for plotting correlation
+                        matrices.
+dataplot                SAM Data plot
+defcon                  Setup basic minimal configuration for sam
+                        assessment
+defpar                  Setup initial values for all model parameters
+                        and random effects.
+deterministicReferencepoints
+                        Function to calculate reference points for the
+                        embedded deterministic model of a SAM fit
+deterministicReferencepoints.sam
+                        Function to calculate reference points for the
+                        embedded deterministic model of a SAM fit
+empirobscorrplot        Plots the residual between-age correlation
+                        matrices by fleet.
+equilibriumbiomassplot
+                        SAM equilibrium biomass plot
+equilibriumbiomasstable
+                        equilibrium biomass table
+faytable                F-at-age table
+fbarplot                SAM Fbar plot
+fbartable               Fbar table
+fitfromweb              Read a fitted model from stockassessment.org
+fitplot                 Plots fit to data
+forecast                forecast function to do shortterm
+forecastMSY             Estimating Fmsy
+fselectivityplot        SAM F-selectivity plot
+generationlengthplot    SAM generation length plot
+generationlengthtable   Generation length table
+getAllDerivedValues     Update sam fit with additional derived values
+getFleet                Extract a fleet observed or predicted value
+                        from a fitted object
+getLowerBounds          Bounds
+getResidualFleets       Extract a list of catch fleets
+getUpperBounds          Bounds
+grad                    Calculate gradient of a function
+hcr                     Harvest control rule forecast
+ibc                     Integrated spline basis for use with formula
+                        interface
+icesAdviceRule          Forecast with an ICES advice rule
+iibc                    Double integrated spline basis for use with
+                        formula interface
+is.whole.positive.number
+                        Function to test if x is ...
+jacobian                Calculate jacobian of a function
+jit                     Jitter runs
+leaveout                leaveout run
+lifeexpectancyplot      SAM life expectancy plot
+lifeexpectancytable     Life expectancy table
+loadConf                Loads a model configuration from a file
+logLik.sam              Log likelihood of sam object
+modelDescription        Description of model
+modelVersionInfo        Description of model
+modelforecast           Model based forecast function
+modeltable              model table
+mohn                    Mohn's rho calculation
+nobs.sam                Extract number of observations from sam object
+nscodConf               nscodConf
+nscodData               nscodData
+nscodParameters         nscodParameters
+ntable                  N table
+obscorrplot             Plots the estimated correlation matrices by
+                        fleet.
+obscov                  Extract observation covariance matrices from a
+                        SAM fit
+parplot                 SAM parameter plot
+partable                parameter table
+plot.hcr                Plot hcr object
+plot.sam                Plot sam object
+plot.samforecast        Plot samforecast object
+plot.samres             Plot sam residuals
+plot.samset             Plot sam object
+plot.samypr             Plot sam object
+plotby                  Plot by one or two
+plotit                  Plot helper
+print.hcr               Print hcr object
+print.sam               Print sam object
+print.sam_referencepoints
+                        Print referencepoint object
+print.samcoef           Print samcoef object
+print.samforecast       Print samforecast object
+print.samres            Print samres object
+print.samset            Print samset object
+print.samypr            Print samypr object
+procres                 Compute process residuals (single joint sample)
+qtable                  table of survey catchabilities
+qtable.sam              table of survey catchabilities
+qtableplot              plot survey catchabilities
+read.data.files         Read all standard data SAM files and return a
+                        list as created by 'setup.sam.data'
+read.ices               Function to read ICES/CEFAS data files and
+                        validate if input makes sense
+read.surveys            Function to read ices survey format
+read.table.nowarn       Function to supress incomplete final line
+                        warning
+recplot                 SAM Recruits plot
+rectable                Recruit table
+reduce                  reduce helper function to reduce data
+referencepoints         Estimate reference points
+refit                   Re-fit a model from stockassessment.org
+residuals.sam           Extract residuals from sam object
+retro                   retro run
+rmaxplot                SAM rmax plot
+rmaxtable               rmax table
+rmvnorm                 rmvnorm helper function to draw multivariate
+                        normal samples
+runwithout              runwithout helper function
+sam.fit                 Fit SAM model
+saveConf                Saves a model configuration list to a file
+sdplot                  Plots the sd of the log observations as
+                        estimated in SAM in increasing order
+setS                    small helper function
+setSeq                  small helper function
+setup.sam.data          Combine the data sources to SAM readable object
+simstudy                Simulate data from fitted model and re-estimate
+                        from each run
+simulate.sam            Simulate from a sam object
+sprplot                 SAM SPR plot
+sprtable                SPR table
+srplot                  Plots the stock recruitment
+ssbplot                 SAM SSB plot
+ssbtable                SSB table
+stochasticReferencepoints
+                        Estimate stochastic reference points
+stockassessment-deprecated
+                        Deprecated and defunct functions
+summary.sam             Summary of sam object
+tableit                 Table helper
+tsbplot                 SAM TSB plot
+tsbtable                TSB table
+write.data.files        Write all data files from a list as created by
+                        'setup.sam.data'
+write.ices              Write ICES/CEFAS data file from matrix
+write.surveys           Write surveys in ICES/CEFAS data file from a
+                        model object
+yearslostplot           SAM years lost to fishing plot
+yearslosttable          Years Lost table
+ypr                     Yield per recruit calculation
+yprplot                 SAM YPR plot
+yprtable                YPR table

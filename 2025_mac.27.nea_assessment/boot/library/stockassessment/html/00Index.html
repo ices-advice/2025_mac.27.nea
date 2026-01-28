@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: State-Space Assessment Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> State-Space Assessment Model
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;stockassessment&rsquo; version 0.12.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#J">J</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#O">O</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#W">W</a>
+<a href="#Y">Y</a>
+</p>
+
+
+<h2><a id="A">-- A --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="addforecast.html">addforecast</a></td>
+<td>SAM add forecasts</td></tr>
+<tr><td style="width: 25%;"><a href="addforecast.html">addforecast.samforecast</a></td>
+<td>SAM add forecasts</td></tr>
+<tr><td style="width: 25%;"><a href="addRecruitmentCurve.html">addRecruitmentCurve</a></td>
+<td>Add stock-recruitment curve to srplot</td></tr>
+<tr><td style="width: 25%;"><a href="addRecruitmentCurve.html">addRecruitmentCurve.sam</a></td>
+<td>Add stock-recruitment curve to srplot</td></tr>
+</table>
+
+<h2><a id="B">-- B --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="b0plot.html">b0plot</a></td>
+<td>SAM equilibrium biomass in the absence of fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="b0plot.html">b0plot.default</a></td>
+<td>SAM equilibrium biomass in the absence of fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="b0plot.html">b0plot.hcr</a></td>
+<td>SAM equilibrium biomass in the absence of fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="b0plot.html">b0plot.samforecast</a></td>
+<td>SAM equilibrium biomass in the absence of fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="b0table.html">b0table</a></td>
+<td>B0 biomass table</td></tr>
+<tr><td style="width: 25%;"><a href="b0table.html">b0table.default</a></td>
+<td>B0 biomass table</td></tr>
+<tr><td style="width: 25%;"><a href="bc.html">bc</a></td>
+<td>Spline basis for use with formula interface</td></tr>
+</table>
+
+<h2><a id="C">-- C --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="c.sam.html">c.sam</a></td>
+<td>Collect sam objects</td></tr>
+<tr><td style="width: 25%;"><a href="catchbyfleetplot.html">catchbyfleetplot</a></td>
+<td>SAM catchbyfleet plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchbyfleettable.html">catchbyfleettable</a></td>
+<td>CatchByFleet table</td></tr>
+<tr><td style="width: 25%;"><a href="catchplot.html">catchplot</a></td>
+<td>SAM catch plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchplot.html">catchplot.hcr</a></td>
+<td>SAM catch plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchplot.html">catchplot.sam</a></td>
+<td>SAM catch plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchplot.html">catchplot.samforecast</a></td>
+<td>SAM catch plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchplot.html">catchplot.samset</a></td>
+<td>SAM catch plot</td></tr>
+<tr><td style="width: 25%;"><a href="catchtable.html">catchtable</a></td>
+<td>Catch table</td></tr>
+<tr><td style="width: 25%;"><a href="catchtable.html">catchtable.sam</a></td>
+<td>Catch table</td></tr>
+<tr><td style="width: 25%;"><a href="caytable.html">caytable</a></td>
+<td>Catch-at-age in numbers table</td></tr>
+<tr><td style="width: 25%;"><a href="clean.void.catches.html">clean.void.catches</a></td>
+<td>remove void catches</td></tr>
+<tr><td style="width: 25%;"><a href="coef.sam.html">coef.sam</a></td>
+<td>Extract fixed coefficients of sam object</td></tr>
+<tr><td style="width: 25%;"><a href="componentplot.html">componentplot</a></td>
+<td>Area plot of spawning components</td></tr>
+<tr><td style="width: 25%;"><a href="componentplot.html">componentplot.sam</a></td>
+<td>Area plot of spawning components</td></tr>
+<tr><td style="width: 25%;"><a href="corplot.html">corplot</a></td>
+<td>Plots between-age correlations by fleet, either estimated or empirical using residuals.</td></tr>
+<tr><td style="width: 25%;"><a href="corplot.html">corplot.sam</a></td>
+<td>Plots between-age correlations by fleet, either estimated or empirical using residuals.</td></tr>
+<tr><td style="width: 25%;"><a href="corplot.html">corplot.samres</a></td>
+<td>Plots between-age correlations by fleet, either estimated or empirical using residuals.</td></tr>
+<tr><td style="width: 25%;"><a href="corplotcommon.html">corplotcommon</a></td>
+<td>Common function for plotting correlation matrices.</td></tr>
+</table>
+
+<h2><a id="D">-- D --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="dataplot.html">dataplot</a></td>
+<td>SAM Data plot</td></tr>
+<tr><td style="width: 25%;"><a href="dataplot.html">dataplot.sam</a></td>
+<td>SAM Data plot</td></tr>
+<tr><td style="width: 25%;"><a href="defcon.html">defcon</a></td>
+<td>Setup basic minimal configuration for sam assessment</td></tr>
+<tr><td style="width: 25%;"><a href="defpar.html">defpar</a></td>
+<td>Setup initial values for all model parameters and random effects.</td></tr>
+<tr><td style="width: 25%;"><a href="deterministicReferencepoints.html">deterministicReferencepoints</a></td>
+<td>Function to calculate reference points for the embedded deterministic model of a SAM fit</td></tr>
+<tr><td style="width: 25%;"><a href="deterministicReferencepoints.sam.html">deterministicReferencepoints.sam</a></td>
+<td>Function to calculate reference points for the embedded deterministic model of a SAM fit</td></tr>
+</table>
+
+<h2><a id="E">-- E --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="empirobscorrplot.html">empirobscorrplot</a></td>
+<td>Plots the residual between-age correlation matrices by fleet.</td></tr>
+<tr><td style="width: 25%;"><a href="empirobscorrplot.html">empirobscorrplot.samres</a></td>
+<td>Plots the residual between-age correlation matrices by fleet.</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomassplot.html">equilibriumbiomassplot</a></td>
+<td>SAM equilibrium biomass plot</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomassplot.html">equilibriumbiomassplot.default</a></td>
+<td>SAM equilibrium biomass plot</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomassplot.html">equilibriumbiomassplot.hcr</a></td>
+<td>SAM equilibrium biomass plot</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomassplot.html">equilibriumbiomassplot.samforecast</a></td>
+<td>SAM equilibrium biomass plot</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomasstable.html">equilibriumbiomasstable</a></td>
+<td>equilibrium biomass table</td></tr>
+<tr><td style="width: 25%;"><a href="equilibriumbiomasstable.html">equilibriumbiomasstable.default</a></td>
+<td>equilibrium biomass table</td></tr>
+</table>
+
+<h2><a id="F">-- F --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="faytable.html">faytable</a></td>
+<td>F-at-age table</td></tr>
+<tr><td style="width: 25%;"><a href="faytable.html">faytable.sam</a></td>
+<td>F-at-age table</td></tr>
+<tr><td style="width: 25%;"><a href="fbarplot.html">fbarplot</a></td>
+<td>SAM Fbar plot</td></tr>
+<tr><td style="width: 25%;"><a href="fbarplot.html">fbarplot.hcr</a></td>
+<td>SAM Fbar plot</td></tr>
+<tr><td style="width: 25%;"><a href="fbarplot.html">fbarplot.sam</a></td>
+<td>SAM Fbar plot</td></tr>
+<tr><td style="width: 25%;"><a href="fbarplot.html">fbarplot.samforecast</a></td>
+<td>SAM Fbar plot</td></tr>
+<tr><td style="width: 25%;"><a href="fbarplot.html">fbarplot.samset</a></td>
+<td>SAM Fbar plot</td></tr>
+<tr><td style="width: 25%;"><a href="fbartable.html">fbartable</a></td>
+<td>Fbar table</td></tr>
+<tr><td style="width: 25%;"><a href="fbartable.html">fbartable.default</a></td>
+<td>Fbar table</td></tr>
+<tr><td style="width: 25%;"><a href="fitfromweb.html">fitfromweb</a></td>
+<td>Read a fitted model from stockassessment.org</td></tr>
+<tr><td style="width: 25%;"><a href="fitplot.html">fitplot</a></td>
+<td>Plots fit to data</td></tr>
+<tr><td style="width: 25%;"><a href="fitplot.html">fitplot.sam</a></td>
+<td>Plots fit to data</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.html">forecast</a></td>
+<td>forecast function to do shortterm</td></tr>
+<tr><td style="width: 25%;"><a href="forecastMSY.html">forecastMSY</a></td>
+<td>Estimating Fmsy</td></tr>
+<tr><td style="width: 25%;"><a href="forecastMSY.html">forecastMSY.sam</a></td>
+<td>Estimating Fmsy</td></tr>
+<tr><td style="width: 25%;"><a href="fselectivityplot.html">fselectivityplot</a></td>
+<td>SAM F-selectivity plot</td></tr>
+<tr><td style="width: 25%;"><a href="fselectivityplot.html">fselectivityplot.sam</a></td>
+<td>SAM F-selectivity plot</td></tr>
+</table>
+
+<h2><a id="G">-- G --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="generationlengthplot.html">generationlengthplot</a></td>
+<td>SAM generation length plot</td></tr>
+<tr><td style="width: 25%;"><a href="generationlengthplot.html">generationlengthplot.default</a></td>
+<td>SAM generation length plot</td></tr>
+<tr><td style="width: 25%;"><a href="generationlengthplot.html">generationlengthplot.hcr</a></td>
+<td>SAM generation length plot</td></tr>
+<tr><td style="width: 25%;"><a href="generationlengthplot.html">generationlengthplot.samforecast</a></td>
+<td>SAM generation length plot</td></tr>
+<tr><td style="width: 25%;"><a href="generationlengthtable.html">generationlengthtable</a></td>
+<td>Generation length table</td></tr>
+<tr><td style="width: 25%;"><a href="generationlengthtable.html">generationlengthtable.default</a></td>
+<td>Generation length table</td></tr>
+<tr><td style="width: 25%;"><a href="getAllDerivedValues.html">getAllDerivedValues</a></td>
+<td>Update sam fit with additional derived values</td></tr>
+<tr><td style="width: 25%;"><a href="getFleet.html">getFleet</a></td>
+<td>Extract a fleet observed or predicted value from a fitted object</td></tr>
+<tr><td style="width: 25%;"><a href="getLowerBounds.html">getLowerBounds</a></td>
+<td>Bounds</td></tr>
+<tr><td style="width: 25%;"><a href="getResidualFleets.html">getResidualFleets</a></td>
+<td>Extract a list of catch fleets</td></tr>
+<tr><td style="width: 25%;"><a href="getUpperBounds.html">getUpperBounds</a></td>
+<td>Bounds</td></tr>
+<tr><td style="width: 25%;"><a href="grad.html">grad</a></td>
+<td>Calculate gradient of a function</td></tr>
+</table>
+
+<h2><a id="H">-- H --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="hcr.html">hcr</a></td>
+<td>Harvest control rule forecast</td></tr>
+<tr><td style="width: 25%;"><a href="hcr.html">hcr.sam</a></td>
+<td>Harvest control rule forecast</td></tr>
+</table>
+
+<h2><a id="I">-- I --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="ibc.html">ibc</a></td>
+<td>Integrated spline basis for use with formula interface</td></tr>
+<tr><td style="width: 25%;"><a href="icesAdviceRule.html">icesAdviceRule</a></td>
+<td>Forecast with an ICES advice rule</td></tr>
+<tr><td style="width: 25%;"><a href="iibc.html">iibc</a></td>
+<td>Double integrated spline basis for use with formula interface</td></tr>
+<tr><td style="width: 25%;"><a href="is.whole.positive.number.html">is.whole.positive.number</a></td>
+<td>Function to test if x is ...</td></tr>
+</table>
+
+<h2><a id="J">-- J --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="jacobian.html">jacobian</a></td>
+<td>Calculate jacobian of a function</td></tr>
+<tr><td style="width: 25%;"><a href="jit.html">jit</a></td>
+<td>Jitter runs</td></tr>
+</table>
+
+<h2><a id="L">-- L --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="leaveout.html">leaveout</a></td>
+<td>leaveout run</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancyplot.html">lifeexpectancyplot</a></td>
+<td>SAM life expectancy plot</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancyplot.html">lifeexpectancyplot.default</a></td>
+<td>SAM life expectancy plot</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancyplot.html">lifeexpectancyplot.hcr</a></td>
+<td>SAM life expectancy plot</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancyplot.html">lifeexpectancyplot.samforecast</a></td>
+<td>SAM life expectancy plot</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancytable.html">lifeexpectancytable</a></td>
+<td>Life expectancy table</td></tr>
+<tr><td style="width: 25%;"><a href="lifeexpectancytable.html">lifeexpectancytable.default</a></td>
+<td>Life expectancy table</td></tr>
+<tr><td style="width: 25%;"><a href="loadConf.html">loadConf</a></td>
+<td>Loads a model configuration from a file</td></tr>
+<tr><td style="width: 25%;"><a href="logLik.sam.html">logLik.sam</a></td>
+<td>Log likelihood of sam object</td></tr>
+</table>
+
+<h2><a id="M">-- M --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="modelDescription.html">modelDescription</a></td>
+<td>Description of model</td></tr>
+<tr><td style="width: 25%;"><a href="modelforecast.html">modelforecast</a></td>
+<td>Model based forecast function</td></tr>
+<tr><td style="width: 25%;"><a href="modelforecast.html">modelforecast.sam</a></td>
+<td>Model based forecast function</td></tr>
+<tr><td style="width: 25%;"><a href="modeltable.html">modeltable</a></td>
+<td>model table</td></tr>
+<tr><td style="width: 25%;"><a href="modeltable.html">modeltable.sam</a></td>
+<td>model table</td></tr>
+<tr><td style="width: 25%;"><a href="modeltable.html">modeltable.samset</a></td>
+<td>model table</td></tr>
+<tr><td style="width: 25%;"><a href="modelVersionInfo.html">modelVersionInfo</a></td>
+<td>Description of model</td></tr>
+<tr><td style="width: 25%;"><a href="mohn.html">mohn</a></td>
+<td>Mohn's rho calculation</td></tr>
+<tr><td style="width: 25%;"><a href="mohn.html">mohn.samset</a></td>
+<td>Mohn's rho calculation</td></tr>
+</table>
+
+<h2><a id="N">-- N --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="nobs.sam.html">nobs.sam</a></td>
+<td>Extract number of observations from sam object</td></tr>
+<tr><td style="width: 25%;"><a href="nscodConf.html">nscodConf</a></td>
+<td>nscodConf</td></tr>
+<tr><td style="width: 25%;"><a href="nscodData.html">nscodData</a></td>
+<td>nscodData</td></tr>
+<tr><td style="width: 25%;"><a href="nscodParameters.html">nscodParameters</a></td>
+<td>nscodParameters</td></tr>
+<tr><td style="width: 25%;"><a href="ntable.html">ntable</a></td>
+<td>N table</td></tr>
+<tr><td style="width: 25%;"><a href="ntable.html">ntable.sam</a></td>
+<td>N table</td></tr>
+</table>
+
+<h2><a id="O">-- O --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="obscorrplot.html">obscorrplot</a></td>
+<td>Plots the estimated correlation matrices by fleet.</td></tr>
+<tr><td style="width: 25%;"><a href="obscorrplot.html">obscorrplot.sam</a></td>
+<td>Plots the estimated correlation matrices by fleet.</td></tr>
+<tr><td style="width: 25%;"><a href="obscov.html">obscov</a></td>
+<td>Extract observation covariance matrices from a SAM fit</td></tr>
+<tr><td style="width: 25%;"><a href="obscov.html">obscov.sam</a></td>
+<td>Extract observation covariance matrices from a SAM fit</td></tr>
+<tr><td style="width: 25%;"><a href="obscov.html">obscov.samset</a></td>
+<td>Extract observation covariance matrices from a SAM fit</td></tr>
+</table>
+
+<h2><a id="P">-- P --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="parplot.html">parplot</a></td>
+<td>SAM parameter plot</td></tr>
+<tr><td style="width: 25%;"><a href="parplot.html">parplot.sam</a></td>
+<td>SAM parameter plot</td></tr>
+<tr><td style="width: 25%;"><a href="parplot.html">parplot.samset</a></td>
+<td>SAM parameter plot</td></tr>
+<tr><td style="width: 25%;"><a href="partable.html">partable</a></td>
+<td>parameter table</td></tr>
+<tr><td style="width: 25%;"><a href="partable.html">partable.sam</a></td>
+<td>parameter table</td></tr>
+<tr><td style="width: 25%;"><a href="plot.hcr.html">plot.hcr</a></td>
+<td>Plot hcr object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.sam.html">plot.sam</a></td>
+<td>Plot sam object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.samforecast.html">plot.samforecast</a></td>
+<td>Plot samforecast object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.samres.html">plot.samres</a></td>
+<td>Plot sam residuals</td></tr>
+<tr><td style="width: 25%;"><a href="plot.samset.html">plot.samset</a></td>
+<td>Plot sam object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.samypr.html">plot.samypr</a></td>
+<td>Plot sam object</td></tr>
+<tr><td style="width: 25%;"><a href="plotby.html">plotby</a></td>
+<td>Plot by one or two</td></tr>
+<tr><td style="width: 25%;"><a href="plotit.html">plotit</a></td>
+<td>Plot helper</td></tr>
+<tr><td style="width: 25%;"><a href="plotit.html">plotit.hcr</a></td>
+<td>Plot helper</td></tr>
+<tr><td style="width: 25%;"><a href="plotit.html">plotit.sam</a></td>
+<td>Plot helper</td></tr>
+<tr><td style="width: 25%;"><a href="plotit.html">plotit.samforecast</a></td>
+<td>Plot helper</td></tr>
+<tr><td style="width: 25%;"><a href="plotit.html">plotit.samset</a></td>
+<td>Plot helper</td></tr>
+<tr><td style="width: 25%;"><a href="print.hcr.html">print.hcr</a></td>
+<td>Print hcr object</td></tr>
+<tr><td style="width: 25%;"><a href="print.sam.html">print.sam</a></td>
+<td>Print sam object</td></tr>
+<tr><td style="width: 25%;"><a href="print.samcoef.html">print.samcoef</a></td>
+<td>Print samcoef object</td></tr>
+<tr><td style="width: 25%;"><a href="print.samforecast.html">print.samforecast</a></td>
+<td>Print samforecast object</td></tr>
+<tr><td style="width: 25%;"><a href="print.samres.html">print.samres</a></td>
+<td>Print samres object</td></tr>
+<tr><td style="width: 25%;"><a href="print.samset.html">print.samset</a></td>
+<td>Print samset object</td></tr>
+<tr><td style="width: 25%;"><a href="print.samypr.html">print.samypr</a></td>
+<td>Print samypr object</td></tr>
+<tr><td style="width: 25%;"><a href="print.sam_referencepoints.html">print.sam_referencepoints</a></td>
+<td>Print referencepoint object</td></tr>
+<tr><td style="width: 25%;"><a href="procres.html">procres</a></td>
+<td>Compute process residuals (single joint sample)</td></tr>
+</table>
+
+<h2><a id="Q">-- Q --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="qtable.html">qtable</a></td>
+<td>table of survey catchabilities</td></tr>
+<tr><td style="width: 25%;"><a href="qtable.sam.html">qtable.sam</a></td>
+<td>table of survey catchabilities</td></tr>
+<tr><td style="width: 25%;"><a href="qtableplot.html">qtableplot</a></td>
+<td>plot survey catchabilities</td></tr>
+<tr><td style="width: 25%;"><a href="qtableplot.html">qtableplot.samqtable</a></td>
+<td>plot survey catchabilities</td></tr>
+</table>
+
+<h2><a id="R">-- R --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="read.data.files.html">read.data.files</a></td>
+<td>Read all standard data SAM files and return a list as created by 'setup.sam.data'</td></tr>
+<tr><td style="width: 25%;"><a href="read.ices.html">read.ices</a></td>
+<td>Function to read ICES/CEFAS data files and validate if input makes sense</td></tr>
+<tr><td style="width: 25%;"><a href="read.surveys.html">read.surveys</a></td>
+<td>Function to read ices survey format</td></tr>
+<tr><td style="width: 25%;"><a href="read.table.nowarn.html">read.table.nowarn</a></td>
+<td>Function to supress incomplete final line warning</td></tr>
+<tr><td style="width: 25%;"><a href="recplot.html">recplot</a></td>
+<td>SAM Recruits plot</td></tr>
+<tr><td style="width: 25%;"><a href="recplot.html">recplot.hcr</a></td>
+<td>SAM Recruits plot</td></tr>
+<tr><td style="width: 25%;"><a href="recplot.html">recplot.sam</a></td>
+<td>SAM Recruits plot</td></tr>
+<tr><td style="width: 25%;"><a href="recplot.html">recplot.samforecast</a></td>
+<td>SAM Recruits plot</td></tr>
+<tr><td style="width: 25%;"><a href="recplot.html">recplot.samset</a></td>
+<td>SAM Recruits plot</td></tr>
+<tr><td style="width: 25%;"><a href="rectable.html">rectable</a></td>
+<td>Recruit table</td></tr>
+<tr><td style="width: 25%;"><a href="rectable.html">rectable.default</a></td>
+<td>Recruit table</td></tr>
+<tr><td style="width: 25%;"><a href="reduce.html">reduce</a></td>
+<td>reduce helper function to reduce data</td></tr>
+<tr><td style="width: 25%;"><a href="referencepoints.html">referencepoints</a></td>
+<td>Estimate reference points</td></tr>
+<tr><td style="width: 25%;"><a href="referencepoints.html">referencepoints.sam</a></td>
+<td>Estimate reference points</td></tr>
+<tr><td style="width: 25%;"><a href="refit.html">refit</a></td>
+<td>Re-fit a model from stockassessment.org</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.sam.html">residuals.sam</a></td>
+<td>Extract residuals from sam object</td></tr>
+<tr><td style="width: 25%;"><a href="retro.html">retro</a></td>
+<td>retro run</td></tr>
+<tr><td style="width: 25%;"><a href="retro.html">retro.sam</a></td>
+<td>retro run</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxplot.html">rmaxplot</a></td>
+<td>SAM rmax plot</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxplot.html">rmaxplot.default</a></td>
+<td>SAM rmax plot</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxplot.html">rmaxplot.hcr</a></td>
+<td>SAM rmax plot</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxplot.html">rmaxplot.samforecast</a></td>
+<td>SAM rmax plot</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxtable.html">rmaxtable</a></td>
+<td>rmax table</td></tr>
+<tr><td style="width: 25%;"><a href="rmaxtable.html">rmaxtable.default</a></td>
+<td>rmax table</td></tr>
+<tr><td style="width: 25%;"><a href="rmvnorm.html">rmvnorm</a></td>
+<td>rmvnorm helper function to draw multivariate normal samples</td></tr>
+<tr><td style="width: 25%;"><a href="runwithout.html">runwithout</a></td>
+<td>runwithout helper function</td></tr>
+<tr><td style="width: 25%;"><a href="runwithout.html">runwithout.sam</a></td>
+<td>runwithout helper function</td></tr>
+</table>
+
+<h2><a id="S">-- S --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="sam.fit.html">sam.fit</a></td>
+<td>Fit SAM model</td></tr>
+<tr><td style="width: 25%;"><a href="saveConf.html">saveConf</a></td>
+<td>Saves a model configuration list to a file</td></tr>
+<tr><td style="width: 25%;"><a href="sdplot.html">sdplot</a></td>
+<td>Plots the sd of the log observations as estimated in SAM in increasing order</td></tr>
+<tr><td style="width: 25%;"><a href="sdplot.html">sdplot.sam</a></td>
+<td>Plots the sd of the log observations as estimated in SAM in increasing order</td></tr>
+<tr><td style="width: 25%;"><a href="setS.html">setS</a></td>
+<td>small helper function</td></tr>
+<tr><td style="width: 25%;"><a href="setSeq.html">setSeq</a></td>
+<td>small helper function</td></tr>
+<tr><td style="width: 25%;"><a href="setup.sam.data.html">setup.sam.data</a></td>
+<td>Combine the data sources to SAM readable object</td></tr>
+<tr><td style="width: 25%;"><a href="simstudy.html">simstudy</a></td>
+<td>Simulate data from fitted model and re-estimate from each run</td></tr>
+<tr><td style="width: 25%;"><a href="simulate.sam.html">simulate.sam</a></td>
+<td>Simulate from a sam object</td></tr>
+<tr><td style="width: 25%;"><a href="sprplot.html">sprplot</a></td>
+<td>SAM SPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="sprplot.html">sprplot.default</a></td>
+<td>SAM SPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="sprplot.html">sprplot.hcr</a></td>
+<td>SAM SPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="sprplot.html">sprplot.samforecast</a></td>
+<td>SAM SPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="sprtable.html">sprtable</a></td>
+<td>SPR table</td></tr>
+<tr><td style="width: 25%;"><a href="sprtable.html">sprtable.default</a></td>
+<td>SPR table</td></tr>
+<tr><td style="width: 25%;"><a href="srplot.html">srplot</a></td>
+<td>Plots the stock recruitment</td></tr>
+<tr><td style="width: 25%;"><a href="srplot.html">srplot.sam</a></td>
+<td>Plots the stock recruitment</td></tr>
+<tr><td style="width: 25%;"><a href="ssbplot.html">ssbplot</a></td>
+<td>SAM SSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="ssbplot.html">ssbplot.default</a></td>
+<td>SAM SSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="ssbplot.html">ssbplot.hcr</a></td>
+<td>SAM SSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="ssbplot.html">ssbplot.samforecast</a></td>
+<td>SAM SSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="ssbtable.html">ssbtable</a></td>
+<td>SSB table</td></tr>
+<tr><td style="width: 25%;"><a href="ssbtable.html">ssbtable.default</a></td>
+<td>SSB table</td></tr>
+<tr><td style="width: 25%;"><a href="stochasticReferencepoints.html">stochasticReferencepoints</a></td>
+<td>Estimate stochastic reference points</td></tr>
+<tr><td style="width: 25%;"><a href="stochasticReferencepoints.html">stochasticReferencepoints.sam</a></td>
+<td>Estimate stochastic reference points</td></tr>
+<tr><td style="width: 25%;"><a href="stockassessment-deprecated.html">stockassessment-deprecated</a></td>
+<td>Deprecated and defunct functions</td></tr>
+<tr><td style="width: 25%;"><a href="summary.sam.html">summary.sam</a></td>
+<td>Summary of sam object</td></tr>
+</table>
+
+<h2><a id="T">-- T --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="tableit.html">tableit</a></td>
+<td>Table helper</td></tr>
+<tr><td style="width: 25%;"><a href="tableit.html">tableit.sam</a></td>
+<td>Table helper</td></tr>
+<tr><td style="width: 25%;"><a href="tableit.html">tableit.samforecast</a></td>
+<td>Table helper</td></tr>
+<tr><td style="width: 25%;"><a href="tsbplot.html">tsbplot</a></td>
+<td>SAM TSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="tsbplot.html">tsbplot.default</a></td>
+<td>SAM TSB plot</td></tr>
+<tr><td style="width: 25%;"><a href="tsbtable.html">tsbtable</a></td>
+<td>TSB table</td></tr>
+<tr><td style="width: 25%;"><a href="tsbtable.html">tsbtable.default</a></td>
+<td>TSB table</td></tr>
+</table>
+
+<h2><a id="W">-- W --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="write.data.files.html">write.data.files</a></td>
+<td>Write all data files from a list as created by 'setup.sam.data'</td></tr>
+<tr><td style="width: 25%;"><a href="write.ices.html">write.ices</a></td>
+<td>Write ICES/CEFAS data file from matrix</td></tr>
+<tr><td style="width: 25%;"><a href="write.surveys.html">write.surveys</a></td>
+<td>Write surveys in ICES/CEFAS data file from a model object</td></tr>
+</table>
+
+<h2><a id="Y">-- Y --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="yearslostplot.html">yearslostplot</a></td>
+<td>SAM years lost to fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="yearslostplot.html">yearslostplot.default</a></td>
+<td>SAM years lost to fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="yearslostplot.html">yearslostplot.hcr</a></td>
+<td>SAM years lost to fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="yearslostplot.html">yearslostplot.samforecast</a></td>
+<td>SAM years lost to fishing plot</td></tr>
+<tr><td style="width: 25%;"><a href="yearslosttable.html">yearslosttable</a></td>
+<td>Years Lost table</td></tr>
+<tr><td style="width: 25%;"><a href="yearslosttable.html">yearslosttable.default</a></td>
+<td>Years Lost table</td></tr>
+<tr><td style="width: 25%;"><a href="ypr.html">ypr</a></td>
+<td>Yield per recruit calculation</td></tr>
+<tr><td style="width: 25%;"><a href="ypr.html">ypr.sam</a></td>
+<td>Yield per recruit calculation</td></tr>
+<tr><td style="width: 25%;"><a href="yprplot.html">yprplot</a></td>
+<td>SAM YPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="yprplot.html">yprplot.default</a></td>
+<td>SAM YPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="yprplot.html">yprplot.hcr</a></td>
+<td>SAM YPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="yprplot.html">yprplot.samforecast</a></td>
+<td>SAM YPR plot</td></tr>
+<tr><td style="width: 25%;"><a href="yprtable.html">yprtable</a></td>
+<td>YPR table</td></tr>
+<tr><td style="width: 25%;"><a href="yprtable.html">yprtable.default</a></td>
+<td>YPR table</td></tr>
+</table>
+</div></body></html>
